@@ -38,14 +38,16 @@ tailwind.config = {
 <body class=".font-manrope">
 
   <!-- hero part -->
-    <header class="container max-w-[1100px] mx-auto">
+    <header class="container px-10 max-w-[1100px] mx-auto">
       <div class="hero  ">
-        <div class="hero-content flex-col lg:flex-row gap-10">
+        <div class="flex justify-between items-center flex-col lg:flex-row gap-10">
           <div class="my-6">
             <h1 class="text-5xl lg:text-7xl font-bold ">It's good <br>
               tea time at The <br> Tea House</h1>
             <p class="my-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-            <button class="btn btn-primary">Explore More</button>
+            <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Explore More
+              <i class="fa-solid fa-square-arrow-up-right"></i>
+            </button>
           </div>
           <div >
             
@@ -143,7 +145,7 @@ tailwind.config = {
         <div class=" space-y-5">
           <h2 class="text-5xl font-etrabold text-white">Meet Our Super <br> Clients</h2>
           <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-          <button class="btn btn-primary font-bold"> Show All</button>
+          <button class="btn font-bold "> Show All</button>
 
         </div>
        </div>
@@ -228,7 +230,68 @@ tailwind.config = {
        </div>
       </section>
     </main>
-    <footer>
+    <!-- footer section -->
+    <footer class=" p-10 lg:px-48 lg:py-20 bg-gradient-to-r from-[#FF89381A] to-[#FF00001A]">
+      <div class="flex justify-between  lg:mb-10">
+        <img src="./images/cup.png" alt="">
+        <div>
+          <div class="lg:flex items-center gap-4">
+            <p>Ready to get strated?</p>
+          <button class="text-white btn bg-gradient-to-r from-[#FF8938] to-[#F00]">Get Started</button>
+          </div>
+        </div>
+      </div>
+     <div>
+      <div class=" grid grid-col-1 lg:grid-cols-4 ">
+ 
+        <nav class="flex flex-col space-y-4">
+          <header class="footer-title text-black">our links</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav class="flex flex-col space-y-4">
+          <header class="footer-title text-black">Our service</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav class="flex flex-col space-y-4">
+          <header class="footer-title text-black">Help</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form class="space-y-4">
+          <header class="footer-title text-2xl font-semibold text-black">Subscribe to our newsletter</header> 
+          <fieldset class="form-control ">
+            <label class="label">
+              <span class="label-text"></span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="Email address" class="  bg-transparent border-b-2 border-black outline-none" /> 
+              <button class="border-b-2 btn rounded-full bg-gradient-to-r from-[#FF8938] to-[#F00]"><i class="fa-solid fa-chevron-right text-white "></i></button>
+            </div>
+           <div class="mt-5 space-x-4">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        
+           </div>
+           </div>
+            </div>
+          </fieldset>
+        </form>
+        <div>
+          
+        </div>
+      
+      
+      </div>
+      <div class="text-center mt-10">
+        <p>© 2027 UIDesign.to - All rights reserved by Al amin Hossain</p>
 
     </footer>
 </body>
